@@ -1,0 +1,35 @@
+void main() {
+  //1st task
+  int fNum=5;
+ int sNum=2;
+
+  int sum=fNum+sNum;
+  int diff=fNum-sNum;
+  int mul=fNum*sNum;
+  double divide=fNum/sNum ;
+ print ("fNum= $fNum"  ); 
+ print ("sNum = $sNum"  );
+ print ("sum= $sum"  );
+ print ("diff= $diff"  );
+ print ("mul= $mul"  );
+ print ("divide= $divide"  );
+  //2nd task
+  int grade =70;
+  if(grade>80)
+  {
+print ("excellent grading");
+  }
+  else if  (grade==80)
+ {
+print ("very good grading");
+ }
+else if(grade<80&&grade>60 )
+ {
+print (" good grading");
+
+ }
+  else 
+  {
+print ("fallen");
+  }
+}
